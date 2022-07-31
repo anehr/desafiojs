@@ -11,7 +11,7 @@ weather.temperature = {
 };
 
 
-const key = 'e331895f05e333e1f345e461ac6f519e';
+const key = '';
 
 
 
@@ -33,7 +33,7 @@ function showError(error) {
 }
 
 function getWeather(latitude, longitude) {
-    let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=e331895f05e333e1f345e461ac6f519e`;
+    let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=`;
    
     fetch(api)
     .then(function(response){
